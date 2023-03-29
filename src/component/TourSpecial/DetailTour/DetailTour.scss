@@ -1,0 +1,30 @@
+.detail_tour {
+    margin-top: 48px;
+    margin: 48px 280px 0 280px;
+    border: 1px solid #e5e5e5;
+    @media (max-width : 767px) {
+        margin: 16px 10px 0 10px;
+        border: 1px solid #e5e5e5;
+    }
+    &_item {
+        margin-left: 28%;
+        @media (max-width : 767px) {
+            margin-left: 25px
+        }
+        p {
+            margin: 0 !important;
+        }
+        &_text {
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 48px;
+            margin: 16px 0;
+            @media (max-width : 767px) {
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 32px;
+            }
+        }
+    }
+   
+}
