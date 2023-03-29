@@ -66,7 +66,7 @@ const TourSpecial = () => {
                 }
             <div>
                 {
-                    idDetail === null ? <p className="tour_special_contain_none" >Chọn ảnh để láy thông tin chi tiết </p>
+                    idDetail === null ? <p className="tour_special_contain_none" >Chọn ảnh để lấy thông tin chi tiết </p>
                     :
                     <DetailTour id={idDetail}/>
                 }
